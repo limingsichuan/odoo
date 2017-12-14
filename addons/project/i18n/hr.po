@@ -7,22 +7,22 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 # KRISTINA PALAŠ <kristina.palas@storm.hr>, 2016
-# Bole <bole@dajmi5.com>, 2016
+# Tina Milas <tina@uvid.hr>, 2016
 # Jasmina Otročak <jasmina@uvid.hr>, 2016
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2016
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2016
+# Bole <bole@dajmi5.com>, 2016
 # storm_mpildek <matija.pildek@storm.hr>, 2016
 # Mario Jureša <mario.juresa@uvid.hr>, 2016
 # Filip Cuk <filipcuk2@gmail.com>, 2016
 # Davor Bojkić <davor.bojkic@storm.hr>, 2016
-# Tina Milas <tina@uvid.hr>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-10 08:42+0000\n"
-"PO-Revision-Date: 2016-10-10 08:42+0000\n"
-"Last-Translator: Tina Milas <tina@uvid.hr>, 2017\n"
+"POT-Creation-Date: 2017-06-23 13:26+0000\n"
+"PO-Revision-Date: 2017-06-23 13:26+0000\n"
+"Last-Translator: Davor Bojkić <davor.bojkic@storm.hr>, 2016\n"
 "Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,11 +115,10 @@ msgid ""
 "                                <span style=\"font-style:italic;\">You’re not alone</span>\n"
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                <span>We would be delighted to assist you along the way. Contact us at \n"
-"                                <a href=\"mailto:help@odoo.com\"><span style=\"text-decoration:underline;\">\n"
-"                                help@odoo.com</span></a> if you have any question. You can also discover \n"
-"                                how to get the best out of Odoo Project with our </span>\n"
-"                                <a href=\"https://www.odoo.com/documentation/user/9.0/project.html\">\n"
+"                                <span>We would be delighted to assist you along the way. Contact us through our\n"
+"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of Odoo Project with our </span>\n"
+"                                <a href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
 "                                <a href=\"https://www.odoo.com/documentation\">\n"
@@ -164,6 +163,7 @@ msgstr "# Dana do krajnjeg roka"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_partner_task_count
+#: model:ir.model.fields,field_description:project.field_res_users_task_count
 msgid "# Tasks"
 msgstr "# Zadaci"
 
@@ -201,7 +201,7 @@ msgstr "- Odoo tim"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "1. Learn about Tasks, Issues and Timesheets."
-msgstr "1. naučite o Zadacima, Problemima i Rasporedima."
+msgstr "1. Naučite o zadacima, problemima i rasporedima."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -243,8 +243,8 @@ msgstr "<b>Povucite i pustite zadatke</b> između stupaca dok radite na njima."
 msgid ""
 "<b>Invite coworkers</b> via email.<br/><i>Enter one email per line.</i>"
 msgstr ""
-"<b>Pozovite suradnike</b> putem elektroničke pošte<br/><i>Unesite jedan "
-"email po liniji.</i>"
+"<b>Pozovite suradnike</b> putem elektroničke pošte.<br/><i>Unesite jedan "
+"e-mail po liniji.</i>"
 
 #. module: project
 #. openerp-web
@@ -381,7 +381,7 @@ msgid ""
 msgstr ""
 "<span class=\"panel-title\">\n"
 "                                            <span class=\"fa fa-puzzle-piece\"/>\n"
-"                                            <strong> Putem Chrome extenzije</strong>\n"
+"                                            <strong> Putem Chrome ekstenzije</strong>\n"
 "                                        </span>"
 
 #. module: project
@@ -514,6 +514,8 @@ msgid ""
 "<strong> Adjourn (5 min)</strong>\n"
 "                                Conclude the meeting with upbeat statements and positive input on project accomplishments. Always reinforce teamwork and encourage all member to watch out for each other to ensure the project is successful."
 msgstr ""
+"<strong> Prekid formalnog sastanak (5 min)</strong>\n"
+"Zaključite sastanak s motivirajućim i pozitivnim izjavama vezanima za postignuća u projektu. Uvijek potičite timski rad i ohrabrujte sve članove da paze jedni na druge kako biste osigurali uspjeh projekta. "
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -521,6 +523,8 @@ msgid ""
 "<strong> Critical items (10 min)</strong>\n"
 "                                Upon completing the project status review session, summarize the critical items."
 msgstr ""
+"<strong> Ključne točke (10 min)</strong>\n"
+"Po završetku pregleda statusa projekta, sumirajte ključne stavke."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -528,6 +532,8 @@ msgid ""
 "<strong> New business issues (5 min)</strong>\n"
 "                                You may have learned something during the week that affects the project.  Share the news early in the meeting to help team members consider the  issue as you walk through the project status session. Not every  issue warrants spending time here, so keep discussions to a minimum."
 msgstr ""
+"<strong> Novi problemi u poslu (5 min)</strong>\n"
+"Možda ste naučili nešto tijekom tjedna što ima veze s projektom. Podijelite novosti na početku sastanka kako biste pomogli članovima tima da razmisle o problemu dok prolazite kroz raspravu o statusu projekta. Nije svakom problemu mjesto ovdje pa se potrudite svesti raspravu na minimum."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -540,6 +546,8 @@ msgid ""
 "<strong> Project plan status review (20 min) </strong>\n"
 "                                Walk through your project plan and allow each team member to provide a brief status of assignments due this week and tasks planned for the next two  weeks. You want to know whether tasks are on track and if any will miss  their projected deadline. You also want to allow the team member to share  any special considerations that might affect other tasks or members of  the project. Carefully manage this part because some team members will  want to pontificate and spend more time than is really needed. Remember, you’re the project manager."
 msgstr ""
+"<strong> Pregled statusa plana projekta (20 min) </strong>\n"
+"Prođite kroz plan projekta i dozvolite svakom članu tima da dâ kratki status o zadacima koje treba obaviti ovaj tjedan i zadacima koji su planirani za sljedeća dva tjedna. Vi želite znati radi li se na zadacima i hoće li ijedan zadatak prijeći predviđeni krajnji rok. Također dozvolite članovima tima da podijele bilo koje posebne misli koje bi mogle utjecati na druge zadatke ili članove projekta. Oprezno vodite ovaj dio sastanka, jer će neki članovi htjeti opširno raspravljati i potrošiti više vremena nego je doista potrebno. Zapamtite, Vi ste menadžer projekta."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -547,6 +555,8 @@ msgid ""
 "<strong> Q&amp;A and discussion time (10 min)</strong>\n"
 "                                Always give your team time to ask questions on issues that were not discussed. This gives you another opportunity to reinforce key points that you've picked up during the week or discovered during the meeting."
 msgstr ""
+"<strong> Vrijeme za raspravu (10 min)</strong>\n"
+"Uvijek dajte svom timu vremena za postavljanje pitanja o problemima o kojima nije bilo riječi. To će Vam dati dodatnu priliku da istaknete ključne točke koje ste odredili tijekom tjedna ili otkrili tijekom sastanka. "
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -554,6 +564,8 @@ msgid ""
 "<strong> Roll call (5 min)</strong>\n"
 "                                Let everyone know who is in attendance before starting. This is important  for remote team members who have dialled in and will save you time later."
 msgstr ""
+"<strong> Prozivka (5 min)</strong>\n"
+"Svi bi trebali znati tko je prisutan prije početka. Ovo je važno za članove tima koji nisu fizički prisutni na sastanku, nego preko mreže i to će Vam uštedjeti vremena kasnije."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -561,6 +573,8 @@ msgid ""
 "<strong> Summary and follow-up items (5 min)</strong>\n"
 "                                Always wrap up with a project status summary and a list of action items  dentified in the meeting to help move the project along."
 msgstr ""
+"<strong> Sažetak i stavke koje slijede (5 min)</strong>\n"
+"Uvijek završite sa sažetkom o statusu projekta i popisom stavki koje su definirane tijekom sastanka kako bi Vam pomogle voditi dalje projekt."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -568,6 +582,8 @@ msgid ""
 "<strong>A great feature in Odoo is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
 "                            It replaces the standard Description area in Tasks and Issues and is extremely useful for several cases."
 msgstr ""
+"<strong>Odlično svojstvo u Odoo je integracija kolaborativnog bloka za bilješke koji se zove Etherpad.</strong><br/>\n"
+"On zamjenjuje standardno polje za opis u zadacima i problemima i jako je koristan u nekoliko slučajeva. "
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -626,8 +642,8 @@ msgid ""
 "<strong>Be careful about the messages you send</strong><br/>\n"
 "                                    Sending a message through Odoo will automatically send an email containing your message to all the followers including internal employees, external users or customers."
 msgstr ""
-"<strong>Bute oprezni s porukama koje šaljete</strong><br/>\n"
-"Slanjem poruke preko Odoo-a automatski šaljete e-mail koji sadrži Vašu poruku svim sljedbenicima uključujući interne zaposlenike, vanjske korisnike ili kupce."
+"<strong>Budite oprezni s porukama koje šaljete</strong><br/>\n"
+"Slanjem poruke preko Odoo automatski šaljete e-mail koji sadrži Vašu poruku svim sljedbenicima uključujući interne zaposlenike, vanjske korisnike ili kupce."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -829,6 +845,8 @@ msgid ""
 "<strong>Rely on the chatter</strong><br/>\n"
 "                                    Below every Task and Issue (or more generally, below every Document in Odoo) is an area called Chatter."
 msgstr ""
+"<strong>Oslonite se na chat</strong><br/>\n"
+"Ispod svakog zadatka i problema (ili općenito ispod svakog dokumenta u Odoo) nalazi se chat."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -836,6 +854,8 @@ msgid ""
 "<strong>Set Priorities</strong><br/>\n"
 "                                    The <i class=\"fa fa-star\"/> is used to indicate priority: in Kanban views, high priority Tasks or Issues will be displayed on top. This is particulary useful if you use a Scrum methodology to indicate the tasks for the week. Similarly to Status, you can change the meaning of the Star indicator from the Project Stages tab."
 msgstr ""
+"<strong>Postavljanje prioriteta</strong><br/>\n"
+"<i class=\"fa fa-star\"/> se koristi za određivanje prioriteta: u kanban pogledu se zadaci ili problemi visokog prioriteta prikazuju na vrhu. Ovo je posebno korisno ako koristite Scrum metodologiju za određivanje tjednih zadataka. Možete mijenjati značenje zvjezdice iz kartice Faza projekta."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -871,6 +891,8 @@ msgid ""
 "<strong>To use Collaborative Notepads</strong>, simply activate the "
 "corresponding option in your"
 msgstr ""
+"<strong>Za korištenje kolaborativnih blokova za bilješke</strong> samo "
+"aktivirajte odgovarajuću opciju na"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -915,6 +937,8 @@ msgid ""
 "<strong>You have to manage versions and track changes</strong><br/>\n"
 "                            Etherpad auto-saves the document at regular short intervals and users can permanently save specific versions at any time. Plus, a \"time slider\" feature also allows anyone to explore the history of the pad."
 msgstr ""
+"<strong>Trebate upravljati verzijama i pratiti promjene</strong><br/>\n"
+"Etherpad automatski sprema dokument u redovitim kratkim intervalima, a korisnici mogu trajno spremiti određene verzije bilo kad. Osim toga, značajka \"time slider\" omogućava svakome provjeravanje povijesti bilješke."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -922,6 +946,8 @@ msgid ""
 "<strong>You organize distant meetings</strong><br/>\n"
 "                            Etherpad allows users to simultaneously edit a text document, see all of the edits in real-time and with the ability to display each author's text in their own color."
 msgstr ""
+"<strong>Organizirate sastanke preko mreže</strong><br/>\n"
+"Etherpad dopušta korisnicima da simultano uređuju tekst u dokumentu, vide sve promjene u stvarnom vremenu i prikazuju tekst svakog autora u posebnoj boji."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_defaults
@@ -939,6 +965,8 @@ msgid ""
 "automatically created into a 'Support level 1' project based on the original"
 " email from the customer."
 msgstr ""
+"Kupac pošalje žalbu na support@yourcompany.com: problem se automatski kreira"
+" u projekt 'Razina podrške 1' prema originalnom e-mailu kupca."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -963,7 +991,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Accept Emails From"
-msgstr "Prihvati email od"
+msgstr "Prihvati e-mail od"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -983,17 +1011,24 @@ msgid ""
 "Activate 'Allow invoicing based on timesheets' from the <i>Human Resources "
 "Settings</i>."
 msgstr ""
+"Aktiviraj 'Dopusti fakturiranje prema evidencijama radnog vremena' iz "
+"<i>Postavki Ljudskih resursa</i>."
 
 #. module: project
 #: model:ir.actions.server,name:project.activate_sample_project
 msgid "Activate Sample Project"
-msgstr ""
+msgstr "Aktiviraj primjer projekta"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_active
 #: model:ir.model.fields,field_description:project.field_project_task_active
 msgid "Active"
 msgstr "Aktivan"
+
+#. module: project
+#: model:ir.ui.view,arch_db:project.project_planner
+msgid "Activities"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1008,6 +1043,8 @@ msgid ""
 "Add columns to configure <b>stages for your tasks</b>.<br/><i>e.g. "
 "Specification &gt; Development &gt; Done</i>"
 msgstr ""
+"Dodajte stupce za konfiguraciju <b>faza za Vaše zadatke</b>.<br/><i>npr. "
+"Specifikacija, Razvoj, Gotovo</i>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
@@ -1034,7 +1071,7 @@ msgstr "Alias"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_contact
 msgid "Alias Contact Security"
-msgstr "Alias Kontakt za osiguranje"
+msgstr "Alias kontakt za osiguranje"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model
@@ -1044,7 +1081,7 @@ msgstr "Zamjenski model"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_name
 msgid "Alias Name"
-msgstr "Alias Ime"
+msgstr "Alias ime"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_domain
@@ -1063,6 +1100,8 @@ msgid ""
 "will  reinforce the need for each of them to be prepared for status "
 "meetings."
 msgstr ""
+"Također, budite primjer. Kada članovi Vašeg tima vide kako ste Vi "
+"pripremljeni, to će ih potaknuti da se i oni pripreme za sastanke."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1070,6 +1109,8 @@ msgid ""
 "Alternatively, Timesheets can be added directly from Tasks by activating "
 "<strong>'Log work activities on tasks'</strong> in the"
 msgstr ""
+"Evidencije radnog vremena mogu se izravno dodati aktivirajući "
+"<strong>'Bilježenje aktivnosti na zadacima'</strong> u"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1077,6 +1118,8 @@ msgid ""
 "An internal message will not send any email notification, but your message "
 "will still be displayed to every user that has access to the page."
 msgstr ""
+"Interna poruka neće poslati e-mail obavijest, ali će biti prikazana svakom "
+"korisniku koji ima pristup stranici."
 
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
@@ -1097,6 +1140,10 @@ msgid ""
 " a Task or Issue is created, and can  manually decide if you want to be "
 "notified for its other events too."
 msgstr ""
+"Dobar način ograničavanja broja obavijesti koje primate je praćenje samo "
+"zadataka projekata koji su Vama dodijeljeni. U tom slučaju ćete biti "
+"obaviješteni kada se zadatak ili problem kreira i onda možete ručno odrediti"
+" želite li primati obavijesti za ostale događaje ili ne."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -1139,7 +1186,7 @@ msgstr "Dodijeljeno"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_assign
 msgid "Assigning Date"
-msgstr ""
+msgstr "Datum dodjeljivanja"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1148,6 +1195,9 @@ msgid ""
 "                                You can define here labels that will be displayed for the state instead\n"
 "                                of the default labels."
 msgstr ""
+"U svakoj fazi zaposlenici mogu blokirati ili pripremiti zadatak/problem za sljedeću fazu.\n"
+"Ovdje možete definirati oznake koje će prikazivati stanje umjesto\n"
+"zadanih oznaka."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1168,7 +1218,7 @@ msgstr "Privitci"
 #. module: project
 #: selection:project.config.settings,generate_project_alias:0
 msgid "Automatically generate an email alias at the project creation"
-msgstr ""
+msgstr "Automatski izradi e-mail alias pri kreiranju projekta"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1181,6 +1231,8 @@ msgid ""
 "Back at the office, the manager splits the customer's requests into several "
 "tasks and delegates them to several employees."
 msgstr ""
+"Kad se vrati u ured, menadžer dijeli zahtjeve kupca u više zadataka i "
+"dodjeljuje ih zaposlenicima."
 
 #. module: project
 #. openerp-web
@@ -1189,7 +1241,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:63
 #, python-format
 msgid "Backlog"
-msgstr ""
+msgstr "Zaostatak"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_balance
@@ -1204,7 +1256,7 @@ msgstr "Osnovno"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Basic Management"
-msgstr ""
+msgstr "Osnovni menadžment"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1228,6 +1280,9 @@ msgid ""
 "                        For example, you'll understand why you shouldn’t use Odoo to plan but instead to\n"
 "                        collaborate, or why organizing your projects by role is wrong."
 msgstr ""
+"Budući da promjena nikad nije laka, kreirali smo ovaj Kalendar za Vas.<br/>\n"
+"Naprimjer, shvatit ćete zašto Odoo ne biste trebali koristiti za planiranje, nego za\n"
+"surađivanje, ili zašto je organiziranje projekata po ulogama pogrešno. "
 
 #. module: project
 #: model:project.task,legend_done:project.project_task_10
@@ -1270,7 +1325,7 @@ msgstr "Otkazano"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Change their Stages in the Project Stages tab"
-msgstr ""
+msgstr "Promijeni njihovu fazu u kartici Faza projekta"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_account_analytic_account_use_tasks
@@ -1300,7 +1355,7 @@ msgstr "Odaberite e-mail projekta"
 #: code:addons/project/static/src/js/web_planner_project.js:54
 #, python-format
 msgid "Clear description and purpose"
-msgstr ""
+msgstr "Jasan opis i svrha"
 
 #. module: project
 #. openerp-web
@@ -1329,7 +1384,7 @@ msgstr "Kliknite na ovaj gumb kako biste izmijenili zadatak."
 #. module: project
 #: model:ir.actions.act_window,help:project.project_tags_action
 msgid "Click to add a new tag."
-msgstr "Klikni za dodavanje nove oznake."
+msgstr "Kliknite za dodavanje nove oznake."
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1344,7 +1399,7 @@ msgstr "Kliknite za kreiranje novog projekta.<br>"
 #. module: project
 #: selection:project.config.settings,module_pad:0
 msgid "Collaborative rich text on task description"
-msgstr ""
+msgstr "Opis zadatka je tekst s oblikovanjem"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_color
@@ -1356,7 +1411,7 @@ msgstr "Indeks boje"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Communication campaign"
-msgstr ""
+msgstr "Kampanja komunikacije"
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
@@ -1457,7 +1512,7 @@ msgstr "Kreiraj projekt"
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
 msgid "Create a new project."
-msgstr "Kreiraj novi projekt."
+msgstr "Kreirajte novi projekt."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1552,7 +1607,7 @@ msgstr "Kupac"
 #: code:addons/project/models/project.py:643
 #, python-format
 msgid "Customer Email"
-msgstr "Email kupca"
+msgstr "E-mail kupca"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1600,7 +1655,7 @@ msgstr "Prilagodbe"
 #. module: project
 #: model:ir.ui.menu,name:project.menu_projects
 msgid "Dashboard"
-msgstr "Kontrolna ploča"
+msgstr "Nadzorna ploča"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_deadline
@@ -1793,12 +1848,12 @@ msgstr "Uredi zadatak"
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Email Alias"
-msgstr "e-mail alias"
+msgstr "E-mail alias"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_mail_template_id
 msgid "Email Template"
-msgstr "predložak emaila"
+msgstr "Predložak e-maila"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1844,7 +1899,7 @@ msgid ""
 "                        This person will have the responsibility for validating each stage and ensuring that the requirements to move to the next stage are met."
 msgstr ""
 "Iako ne postoji posebno polje u Odoo, važno je definirati osobu koja je odgovorna za svaku fazu Vašeg projekta.<br/>\n"
-"Ta će osoba biti odgovorna za validaciju svake faze i morat će osigurati da su se ispunili zahtjevi kako bi se prešlo na sljedeću fazu projekta."
+"Ta će osoba biti odgovorna za ovjeru svake faze i morat će osigurati da su se ispunili zahtjevi kako bi se prešlo na sljedeću fazu projekta."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1932,7 +1987,7 @@ msgstr "Pratim ja"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "For employees, the"
-msgstr ""
+msgstr "Za zaposlenike, "
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1956,6 +2011,8 @@ msgid ""
 "For the same reason, don't create a Project based on weeks or time (example:"
 " Scrum)."
 msgstr ""
+"Iz istog razloga nemojte kreirati projekt na temelju tjedana ili vremena "
+"(npr. Scrum)."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -1965,7 +2022,7 @@ msgstr "Predviđanja"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_project_forecast
 msgid "Forecasts, planning and Gantt charts"
-msgstr ""
+msgstr "Predviđanja, planiranje i Ganttov dijagram"
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
@@ -1997,7 +2054,7 @@ msgstr "Dohvati više aplikacija"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_label_tasks
 msgid "Gives label to tasks on project's kanban view."
-msgstr ""
+msgstr "Daje oznake zadacima na projektima u kanban pogledu."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_sequence
@@ -2007,7 +2064,7 @@ msgstr "Daje redoslijed kada se prikazuje lista projekata"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_sequence
 msgid "Gives the sequence order when displaying a list of tasks."
-msgstr "Zadaje redosljed za prikaz popisa zadataka."
+msgstr "Zadaje redoslijed za prikaz popisa zadataka."
 
 #. module: project
 #. openerp-web
@@ -2072,6 +2129,11 @@ msgid ""
 "   if website is activated, portal users may see project, tasks or issues followed by\n"
 "   them or by someone of their company\n"
 msgstr ""
+"Drži vidljivost zadataka ili problema koji pripadaju trenutnom projektu:\n"
+"- Samo na poziv: Zaposlenici mogu samo vidjeti projekt, zadatke ili probleme koje prate\n"
+"- Vidljivo svim zaposlenicima: Zaposlenici mogu vidjeti sve projekte, zadatke ili probleme\n"
+"- Vidljivo sljedećim kupcima: zaposlenici vide sve;\n"
+"ako je web stranica aktivirana, korisnici portala mogu vidjeti projekte, zadatke ili probleme koje prate oni ili netko iz njihove tvrtke\n"
 
 #. module: project
 #: code:addons/project/models/project.py:567
@@ -2128,7 +2190,7 @@ msgstr "Ideje"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Identify problems and blocking points more easily"
-msgstr ""
+msgstr "Lakše identificiraj probleme i blokade "
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type_mail_template_id
@@ -2145,7 +2207,7 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the project "
 "without removing it."
 msgstr ""
-"Ako je polje Aktivan postavljeno na NE, omogućeno vam je sakrivanje projekta"
+"Ako je polje Aktivan postavljeno na NE, omogućeno Vam je sakrivanje projekta"
 " bez brisanja."
 
 #. module: project
@@ -2201,7 +2263,7 @@ msgstr "U tijeku"
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "In progress"
-msgstr "U Tijeku"
+msgstr "U tijeku"
 
 #. module: project
 #. openerp-web
@@ -2238,7 +2300,7 @@ msgid ""
 "notified in Odoo's Inbox."
 msgstr ""
 "Interne bilješke su poruke koje će se pojaviti u chatu, ali se neće pojaviti"
-" kao obavijest u dolaznim porukama Odoo-a."
+" kao obavijest u dolaznim porukama Odoo."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2290,6 +2352,8 @@ msgid ""
 "It is time to think about how you will transform your activities into real projects in Odoo.<br/>\n"
 "                        For that, the most important part is defining the stages of your projects. Stages are the different steps a task or an issue can go through, from its creation to its ending. They will appear in what we call the 'Kanban' view of your projects."
 msgstr ""
+"Vrijeme je da razmislite o tome kako ćete svoje aktivnosti pretvoriti u prave projekte u Odoo.<br/>\n"
+"Zbog toga je najvažnije definirati faze projekta. Faze su različiti koraci kroz koje prolaze zadaci ili problemi od njihovog kreiranja do završetka. One će se pojaviti u 'kanban' pogledu Vaših projekata."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2297,12 +2361,15 @@ msgid ""
 "It's essential to be clear about why you want to use Odoo Project and what your goals are.\n"
 "                        Indeed, there are many ways to manage a project, to find the best one for you, you need to know exactly what you want to achieve. And later on, we will hopefully transform your objectives into real improvements for your company."
 msgstr ""
+"Važno je znati iz kojeg razloga želite koristiti Odoo projekt i koji su Vaši ciljevi.\n"
+"Zapravo postoje mnogi načini vođenja projekta. Kako biste pronašli najbolji za Vas, trebate točno znati što želite postići. Nadamo se da ćemo Vaše ciljeve moći pretvoriti u stvarna poboljšanja za Vašu firmu. "
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "It's for logging every change, event or message related to the Document."
 msgstr ""
+"To je za bilježenje svake promjene, događaja ili poruke u vezi s dokumentom."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2319,13 +2386,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_legend_blocked
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_blocked
 msgid "Kanban Blocked Explanation"
-msgstr ""
+msgstr "Kanban blokirano objašnjenje"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_legend_normal
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_normal
 msgid "Kanban Ongoing Explanation"
-msgstr ""
+msgstr "Kanban objašnjenje u tijeku"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2347,7 +2414,7 @@ msgstr "Kanban stanje"
 #: model:ir.model.fields,field_description:project.field_project_task_legend_done
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_done
 msgid "Kanban Valid Explanation"
-msgstr ""
+msgstr "Kanban potvrđeno objašnjenje"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2512,7 +2579,7 @@ msgstr "Moji favoriti"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "My Tasks"
-msgstr "Moji Zadaci"
+msgstr "Moji zadaci"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_tags_name
@@ -2616,6 +2683,11 @@ msgstr "Broj pridruženih dokumenata"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
+msgid "Objectives"
+msgstr ""
+
+#. module: project
+#: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Odoo Project is a super fast and easy way to make your activities and tasks visible to\n"
 "                        everyone in your company. Follow how things progress, see when things are stuck, know\n"
@@ -2639,7 +2711,7 @@ msgid ""
 "efficiently. You can track progress, discuss on tasks, attach documents, "
 "etc."
 msgstr ""
-"Odoo-ov projekt menadžment omogućuje Vam efikasno upravljanje tokom Vaših "
+"Odoo projekt menadžment omogućuje Vam efikasno upravljanje tokom Vaših "
 "zadataka. Možete pratiti napredak, raspravljati na zadacima, dodavati "
 "dokumente itd."
 
@@ -2681,6 +2753,8 @@ msgid ""
 "Or, if you are using Issues, by activating 'Activate timesheets on issues', "
 "also in the"
 msgstr ""
+"Ili, ako koristite probleme, aktiviranjem 'Aktiviraj evidencije radnog "
+"vremena na problemima', isto u"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2702,6 +2776,7 @@ msgstr ""
 msgid ""
 "Organize your company, from personal tasks to collaborative meeting minutes."
 msgstr ""
+"Organizirajte svoju tvrtku, od vlastitih zadataka do zajedničkih sastanaka."
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
@@ -2715,6 +2790,8 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
+"Pregazi prikazanu zadanu vrijednost kada je zadatak ili problem u statusu "
+"blokiranog."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_done
@@ -2723,6 +2800,8 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
+"Pregazi prikazanu zadanu vrijednost kada je zadatak ili problem u statusu "
+"završenog."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_normal
@@ -2731,6 +2810,7 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
+"Pregazi zadanu vrijednost kada je zadatak ili problem u statusu normalnog."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_user_id
@@ -2825,7 +2905,7 @@ msgstr "Privatnost"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Product or software version"
-msgstr ""
+msgstr "Proizvod ili softver verzija"
 
 #. module: project
 #: model:ir.model,name:project.model_project_project
@@ -2892,7 +2972,7 @@ msgstr "Zadaci projekta"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_project_time_mode_id
 msgid "Project Time Unit *"
-msgstr "Vremenska jedinica vremena *"
+msgstr "Vremenska jedinica projekta *"
 
 #. module: project
 #: model:res.request.link,name:project.req_link_task
@@ -2912,6 +2992,7 @@ msgstr "Projektni zadaci"
 #: model:ir.model.fields,field_description:project.field_project_task_type_project_ids
 #: model:ir.ui.menu,name:project.menu_projects_config
 #: model:ir.ui.view,arch_db:project.analytic_account_inherited_form
+#: model:ir.ui.view,arch_db:project.project_planner
 #: model:ir.ui.view,arch_db:project.view_project
 msgid "Projects"
 msgstr "Projekti"
@@ -2924,7 +3005,7 @@ msgstr "Projekti i zadaci"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_rating_project
 msgid "Rating on task"
-msgstr ""
+msgstr "Ocjenjivanje zadatka"
 
 #. module: project
 #. openerp-web
@@ -2944,7 +3025,7 @@ msgstr "Spreman za sljedeću fazu"
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Ready for release"
-msgstr ""
+msgstr "Spremno za izdavanje"
 
 #. module: project
 #. openerp-web
@@ -2978,7 +3059,7 @@ msgstr "Razlog otkazivanja je dokumentiran"
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_project_task
 msgid "Reception of ${object.name}"
-msgstr ""
+msgstr "Primka od ${object.name}"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_force_thread_id
@@ -3000,7 +3081,7 @@ msgstr "Vezna oznaka"
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Release"
-msgstr ""
+msgstr "Izdavanje"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_remaining_hours
@@ -3063,7 +3144,7 @@ msgstr "Odgovornost"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Runs outside Odoo, always available"
-msgstr ""
+msgstr "Radi van Odoo, uvijek dostupno"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3099,6 +3180,8 @@ msgid ""
 "Send an automatic confirmation to all issue emails sent to your customer "
 "support"
 msgstr ""
+"Pošalji automatsku potvrdu svim e-mailovima s problemima koji su poslani "
+"Vašoj korisničkoj podršci"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_sequence
@@ -3110,7 +3193,7 @@ msgstr "Sekvenca"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Service Level Agreement (SLA)"
-msgstr ""
+msgstr "Ugovor o razini usluge (SLA)"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
@@ -3172,7 +3255,7 @@ msgstr "Specifikacija"
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification is validated"
-msgstr "Specifikacija je potvrđena"
+msgstr "Specifikacija je ovjerena"
 
 #. module: project
 #. openerp-web
@@ -3204,7 +3287,7 @@ msgstr "Promijenjen status"
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "Stage Description and Tooltips"
-msgstr ""
+msgstr "Opis faze i tooltips"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_name
@@ -3225,7 +3308,7 @@ msgstr "Faze"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Start / Stop a timer in one click"
-msgstr ""
+msgstr "Pokrenite / Zaustavite vremenski brojač jednim klikom"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_date_start
@@ -3235,7 +3318,7 @@ msgstr "Početni datum"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_start
 msgid "Starting Date"
-msgstr "Početni Datum"
+msgstr "Početni datum"
 
 #. module: project
 #: sql_constraint:project.tags:0
@@ -3254,7 +3337,7 @@ msgstr "Oznake"
 #. module: project
 #: model:ir.model,name:project.model_project_tags
 msgid "Tags of project's tasks, issues..."
-msgstr ""
+msgstr "Oznake zadataka projekata, problema..."
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
@@ -3284,7 +3367,7 @@ msgstr "Zadatak otvoren"
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_task_pipe
 msgid "Task Pipe"
-msgstr ""
+msgstr "Tok zadatka"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_ready
@@ -3363,6 +3446,7 @@ msgstr "Zadatak je spreman za sljedeću fazu"
 #: model:ir.model.fields,field_description:project.field_project_project_task_ids
 #: model:ir.model.fields,field_description:project.field_project_project_task_needaction_count
 #: model:ir.model.fields,field_description:project.field_res_partner_task_ids
+#: model:ir.model.fields,field_description:project.field_res_users_task_ids
 #: model:ir.ui.menu,name:project.menu_action_view_task
 #: model:ir.ui.view,arch_db:project.edit_project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3404,6 +3488,8 @@ msgstr "Analiza zadataka"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Tasks are the main mechanism in Odoo and are activated by default."
 msgstr ""
+"Zadaci su glavni mehanizam u Odoo i postavljeno je kao zadano da su "
+"aktivirani."
 
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
@@ -3422,7 +3508,7 @@ msgstr "Test"
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Test is OK, need to document"
-msgstr ""
+msgstr "Test je ok, potrebno je dokumentirati"
 
 #. module: project
 #. openerp-web
@@ -3441,6 +3527,12 @@ msgid ""
 " mean it's always a good idea: let's start by helping you understand what "
 "can be a good project."
 msgstr ""
+"Aplikacija Odoo Projekt može se koristiti za upravljanje mnogih aktivnosti, "
+"od razvoja novog proizvoda do svakodnevnih operacija korisničke podrške. Uz "
+"malo kreativnosti, može se koristiti za upravljanje marketinškom "
+"komunikacijom ili osobnim projektima. Ako se nešto može obaviti, to ne znači"
+" nužno da je to dobra ideja: za početak pomoći ćemo Vam razumjeti što bi "
+"mogao biti dobar projekt."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_model
@@ -3448,7 +3540,7 @@ msgid ""
 "The kind of document created when an email is received on this project's "
 "email alias"
 msgstr ""
-"Vrsta dokumenta koja nastaje kada email stigne na email alias projekta"
+"Vrsta dokumenta koja nastaje kada e-mail stigne na e-mail alias projekta"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_model_id
@@ -3486,7 +3578,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "The same features as the Chrome extension, but on your mobile phone!"
-msgstr ""
+msgstr "Iste odlike kao Chrome ekstenzija, ali na Vašem mobilnom telefonu!"
 
 #. module: project
 #. openerp-web
@@ -3511,6 +3603,8 @@ msgid ""
 "from customers will be transformed into an issue that you'll be able to "
 "track easily!"
 msgstr ""
+"Ovo je osobito korisno za upravljanje pomoći i podrške: svi dolazni "
+"e-mailovi kupaca pretvaraju se u problem kojeg možete lako pratiti!"
 
 #. module: project
 #: model:ir.actions.act_window,help:project.action_project_task_user_tree
@@ -3537,6 +3631,8 @@ msgid ""
 "This whole process might take you a few hours, but don't worry, you can take a break and\n"
 "                        return to it at any time: your progress is automatically saved."
 msgstr ""
+"Cijeli ovaj proces može potrajati nekoliko sati, ali ne brinite, možete napraviti pauzu i\n"
+"vratiti mu se u bilo koje vrijeme: Vaš će napredak biti automatski spremljen."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3572,7 +3668,7 @@ msgstr "Raspoređivanje vremena"
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
 #: model:ir.model.fields,field_description:project.project_time_mode_id_duplicate_xmlid
 msgid "Timesheet UoM"
-msgstr ""
+msgstr "Evidencija radnog vremena UoM"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3581,6 +3677,9 @@ msgid ""
 "                    They are also prone to human error, repetitive, annoying, and sometimes stressful to employees.<br/>\n"
 "                    Fortunately, Odoo has several solutions to make them as efficient and painless as possible!<br/>"
 msgstr ""
+"Evidencije radnog vremena značajne su za vođenje tvrtke.<br/>\n"
+"Također su sklone ljudskoj pogrešci, ponavljaju se, dosadne su i ponekad stresne za zaposlenike.<br/>\n"
+"Srećom, Odoo ima nekoliko rješenja za učiniti ih što učinkovitijima i bezbolnijima! <br/>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3611,6 +3710,8 @@ msgid ""
 "To configure these Kanban Statuses, go to the 'Project Stages' tab of a "
 "Project."
 msgstr ""
+"Za konfiguraciju ovih kanban statusa, otiđite na karticu 'Faze projekta' "
+"nekog projekta."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3695,7 +3796,7 @@ msgstr ""
 #. module: project
 #: model:project.task.type,legend_priority:project.project_stage_0
 msgid "Use the priority for tasks related to gold customers"
-msgstr ""
+msgstr "Koristi prioritet za zadatke vezane za zlatne kupce"
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
@@ -3715,6 +3816,10 @@ msgid ""
 "                        Your team members will probably try to avoid those kind of meetings, or have to rush afterwards to meet their deadlines...<br/><br/>\n"
 "                        So how can you, as project manager, structure a weekly status meeting where team members are engaged, informed and willing to contribute to the project's next steps? Here are some tips."
 msgstr ""
+"Obično se projektnim timom upravlja tjednim (ili mjesečnim) sastancima.<br/>\n"
+"Ponekad ti sastanci mogu potrajati satima i dati previše detaljan pregled projekta.<br/>\n"
+"Članovi Vašeg tima će vjerojatno pokušati izbjeći ovakav tip sastanaka ili će nakon njih žuriti na posao kako bi stigli rokove...<br/><br/>\n"
+"Kako onda možete kao projekt menadžer strukturirati tjedni sastanak na kojem će članovi tima biti angažirani, informirani i voljni doprinijeti sljedećim koracima projekta? Evo nekoliko savjeta. "
 
 #. module: project
 #. openerp-web
@@ -3806,6 +3911,8 @@ msgid ""
 "We've developed a super simple and efficient Chrome extension to enter your "
 "timesheets:<br/><br/>"
 msgstr ""
+"Razvili smo jako jednostavnu Chrome ekstenziju kako biste ušli u evidenciju "
+"radnog vremena:<br/><br/>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3891,12 +3998,16 @@ msgid ""
 "You can also give a tooltip about the use of the stars available in the "
 "kanban and form views."
 msgstr ""
+"Možete dodati i kratki tooltip opis o korištenju zvjezdica na kanban ili "
+"forma pogledu."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "You can even include any report in your dashboard for permanent access!"
 msgstr ""
+"Čak možete staviti bilo koje izvješće na svoju nadzornu ploču kako biste "
+"imali stalan pristup!"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3904,6 +4015,8 @@ msgid ""
 "You can learn more about Timesheets in the 'Use Timesheets' section of this "
 "planner."
 msgstr ""
+"Možete naučiti više o evidenciji radnog vremena u 'Koristi evidenciju radnog"
+" vremena' dijelu ovog rokovnika."
 
 #. module: project
 #: model:ir.actions.act_window,help:project.act_project_project_2_project_task_all
@@ -3911,6 +4024,8 @@ msgid ""
 "You can now manage your tasks in order to get things done efficiently. Track"
 " progress, discuss, attach documents, etc."
 msgstr ""
+"Sada možete upravljati svojim zadacima kako biste efikasno obavljali stvari."
+" Pratite napredak, raspravljajte, piložite dokumente itd."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3923,6 +4038,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "You can save your reports to easily reuse it later"
 msgstr ""
+"Možete lako spremiti svoja izvješća pa ih možete ponovno koristiti kasnije"
 
 #. module: project
 #: code:addons/project/models/project.py:70
@@ -3963,7 +4079,7 @@ msgstr "Vaši projekti:"
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all
 msgid "activate a sample project"
-msgstr ""
+msgstr "aktiviraj primjer projekta"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3988,7 +4104,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "for Tasks: 'Log work activities on tasks'"
-msgstr ""
+msgstr "za zadatke: 'Bilježenje aktivnosti na zadacima'"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
@@ -4036,12 +4152,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "view of the Human Resources module."
-msgstr ""
+msgstr "pogled iz modula Ljudski resursi."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "view."
-msgstr ""
+msgstr "pogled."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner

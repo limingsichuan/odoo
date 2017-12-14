@@ -29,8 +29,10 @@ msgid ""
 "automatically, but others require manual intervention (those are identified "
 "by a specific error message in the chatter)."
 msgstr ""
-"O <b>Excepția de aprovizionare</b> a apărut când sistemul nu a găsit o cale pentru a completa aprovizionarea.  Unele excepții se vor rezolva automat de la sine, dar pentru altele este necesară intervenția manuală \n"
-"occurs when the system cannot find a way to fulfill a procurement (mesajele de eroare se găsesc în partea de jos). "
+"O <b>Excepția de aprovizionare</b> a apărut când sistemul nu a găsit o cale "
+"pentru a completa aprovizionarea.  Unele excepții se vor rezolva automat de "
+"la sine, dar pentru altele este necesară intervenția manuală  (mesajele de "
+"eroare se găsesc în partea de jos). "
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
@@ -252,7 +254,7 @@ msgstr "Ultima actualizare în"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Late"
-msgstr "Tarziu"
+msgstr "Întârziat"
 
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
@@ -266,6 +268,8 @@ msgid ""
 "                having a vendor defined on the product, and products to\n"
 "                manufacture without having a bill of materials."
 msgstr ""
+"Majoritatea excepțiilor sunt datorate produselor de cumpărat care nu au "
+"definit furnizor și produselor de fabricat care nu au listă de materiale."
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_name
@@ -358,7 +362,7 @@ msgstr "Grup aprovizionare"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Procurement started late"
-msgstr "Aprovizionarea a inceput tarziu"
+msgstr "Aprovizionarea a întârziat"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_procurement_ids
